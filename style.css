@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom, #F2059F, #F29F05);
+    padding: 20px;
+    
+    
+}
+header > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+header > p{
+    max-width: 450px;
+    min-width: 100px;
+    margin: auto;
+    padding: 10px;
+    
+    
+    
+}
