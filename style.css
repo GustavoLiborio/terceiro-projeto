@@ -63,6 +63,10 @@ nav > a{
     font-weight: bold;
     font-family: "DM Sans";
 }
+a:hover{
+    transition: 2s;
+    background-color: var(--cor3);
+}
 main{
     max-width: 800px;
     margin: auto;
