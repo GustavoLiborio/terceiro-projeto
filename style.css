@@ -3,11 +3,17 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-size: 1.em;
 }
 :root{
     --cor1: #3C2F80;
     --cor2: #26B6C6;
-    --cor3: #F20587;
+    --cor3: #6ACFC9;
+    --cor4: #AEE8CA;
+    --cor5: #FAEDDA;
+}
+body{
+    background-color: var(--cor4)
 }
 header{
     background-image: linear-gradient(to top, var(--cor1), var(--cor2) );
@@ -31,6 +37,7 @@ header > p{
 nav{
     background-color: var(--cor1);
     padding: 10px;
+    
 }
 nav > a{
     margin: 0px 15px;
@@ -39,4 +46,53 @@ nav > a{
     color: white;
     text-decoration: none;
     font-size: 1.2em;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+main h1{
+    padding: 10px 0px 10px 0px;
+    font-size: 2em;
+    color: var(--cor1);
+}
+main  p{
+    text-indent: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px;
+    padding: 20px;
+    text-align: center;
+
+    position: relative;
+    padding-bottom: 56.5%;
+}
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+
+    
+}
+footer{
+    margin: 30px 0px 0px 0px;
+}
+footer p{
+    
+    background-color: var(--cor1);
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+     padding: 10px;
+
 }
